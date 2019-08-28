@@ -220,9 +220,37 @@ sup {
 }
 
 .frame1 .player_tackle {
-  -webkit-transform: translate(120px, 170px);
-  -ms-transform: translate(120px, 170px);
-  transform: translate(120px, 170px);
+  -webkit-transform: translate(180px, 40px);
+  -ms-transform: translate(180px, 40px);
+  transform: translate(180px, 40px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
+.frame1 .player_qb_ball {
+  -webkit-transform-origin: 50px 85px;
+  -ms-transform-origin: 50px 85px;
+  transform-origin: 50px 85px;
+  -webkit-transform: translate(0px, 0px) scale(1) rotate(-10deg);
+  -ms-transform: translate(0px, 0px) scale(1) rotate(-10deg);
+  transform: translate(0px, 0px) scale(1) rotate(-10deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
+.frame1 .player_qb_arm {
+  -webkit-transform-origin: 160px 60px;
+  -ms-transform-origin: 160px 60px;
+  transform-origin: 160px 60px;
+  -webkit-transform: translate(0px, 0px) scale(1) rotate(10deg);
+  -ms-transform: translate(0px, 0px) scale(1) rotate(10deg);
+  transform: translate(0px, 0px) scale(1) rotate(10deg);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -239,6 +267,12 @@ sup {
   color: #333;
   width: 300px;
   height: 250px;
+}
+
+.phone_scribble {
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
 }
 
 #legalBtn {
