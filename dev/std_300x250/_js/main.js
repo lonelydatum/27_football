@@ -44,7 +44,7 @@ function start(){
 	tl.add(sentence(listB), "+=.3")
 
 	// tl.to('.b', .2, {opacity:1})
-	tl.from('.cta_wager', .3, {opacity:0}, "+=1")
+	tl.from('.cta_wager', .3, {opacity:0}, "+=1.3")
 	tl.to('.cta_wager', .1, {opacity:0}, "+=1.5")
 	tl.from('.cta_odds', .3, {opacity:0}, "+=.3")
 	
