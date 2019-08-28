@@ -23,8 +23,6 @@ function start() {
 	tl.add(sentence(list1), "+=.6");
 	tl.add(sentence(list2), "+=.8");
 
-	// tl.from(".logo", .3, {opacity:0}, "+=.2")
-
 	tl.to([".a1", ".a2", ".a3", ".a4", ".logo"], .2, { opacity: 0 }, "+=1.5");
 
 	tl.to(".player_tackle", .4, { x: 0, y: 0, ease: Power2.easeOut }, "-=.1");
@@ -32,18 +30,16 @@ function start() {
 	tl.add('f2', '+=.4');
 	tl.set(".frame2", { opacity: 1 }, "f2");
 	tl.to(".frame1", .4, { opacity: 0, ease: Power2.easeOut }, "f2");
-	// tl.from(".frame2", .9, {x:"+=250", ease:Power2.easeOut}, "f2")
 
-	tl.add('f2_all', "-=.1");
-	tl.from(".phone", .3, { y: "+=100", ease: Power2.easeOut }, "f2_all");
-	tl.from(".phone_scribble", .5, { scale: 0, ease: Power2.easeInOut }, 'f2_all+=.3');
+	tl.add('phone', "-=.1");
+	tl.from(".phone", .3, { y: "+=100", ease: Power2.easeOut }, "phone");
+	tl.from(".phone_scribble", .5, { scale: 0, ease: Power2.easeInOut }, 'phone+=.3');
 
 	tl.add(sentence(listB), "+=.3");
 
-	// tl.to('.b', .2, {opacity:1})
-	tl.from('.cta_wager', .3, { opacity: 0 }, "+=1.3");
+	tl.from('.cta_wager', .1, { opacity: 0 }, "+=1.3");
 	tl.to('.cta_wager', .1, { opacity: 0 }, "+=1.5");
-	tl.from('.cta_odds', .3, { opacity: 0 }, "+=.3");
+	tl.from('.cta_odds', .2, { opacity: 0 }, "+=.3");
 
 	tl.from([".footer"], .2, { opacity: 0 }, "+=.6");
 
