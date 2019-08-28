@@ -14,7 +14,7 @@ TweenMax.to('.player_qb_arm', 1, {rotation:-5, ease:Power2.easeInOut, repeat:3, 
 function sentence(list){
 	const tl_list = new TimelineMax()
 	list.map(item=>{
-		tl_list.set(`.${item}`, {opacity:1}, "+=.2")
+		tl_list.set(`.${item}`, {opacity:1}, "+=.25")
 	})	
 	return tl_list
 }
@@ -23,10 +23,10 @@ function sentence(list){
 
 function start(){
 
-	tl.add(sentence(list1))
+	tl.add(sentence(list1), "+=.6")
 	tl.add(sentence(list2), "+=.8")
 
-	tl.from(".logo", .3, {opacity:0}, "+=.2")
+	// tl.from(".logo", .3, {opacity:0}, "+=.2")
 
 	tl.to([".a1", ".a2", ".a3", ".a4", ".logo"], .2, {opacity:0}, "+=1.5")
 
