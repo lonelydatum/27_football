@@ -1,0 +1,28 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	opacity: 1;
+	.player_tackle{
+		@include pos(120, 170);
+	}
+
+	
+}
+
+.text{
+		opacity:0;
+	}
+
+
+
+#banner{
+	font-size: 20px;
+	color: #333;
+	width: 300px;
+	height: 250px;
+}
+
