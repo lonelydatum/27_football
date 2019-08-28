@@ -24,16 +24,16 @@ function start() {
 	tl.to(".player_tackle", .3, { x: 0, y: 0 }, "+=.5");
 
 	tl.add('f2', "+=1");
-	tl.set(".frame2", { opacity: 1 });
-	tl.to(".frame1", .5, { y: "-=250", ease: Power2.easeOut }, "f2");
-	tl.from(".frame2", .5, { y: "+=250", ease: Power2.easeOut }, "f2");
+	tl.set(".frame2", { opacity: 1 }, "f2");
+	tl.to(".frame1", .5, { y: "-=250", ease: Power1.easeOut }, "f2");
+	tl.from(".frame2", .5, { y: "+=250", ease: Power1.easeOut }, "f2");
 
-	tl.add('f2_all', "+=.1");
+	tl.add('f2_all', "-=.1");
 	tl.add(sentence(listB), 'f2_all');
-	tl.from(".phone", .3, { y: "+=100", ease: Power2.easeOut }, "f2_all");
-	tl.from(".phone_scribble", .3, { y: "+=100", ease: Power2.easeOut }, "f2_all+=.1");
+	// tl.from(".phone", .3, {y:"+=30", ease:Power2.easeOut}, "f2_all")
+	// tl.from(".phone_scribble", .3, {y:"+=30", ease:Power2.easeOut}, "f2_all+=.1")
 
-	tl.from([".cta", ".footer"], .3, { opacity: 0 }, "+=.3");
+	tl.from([".cta", ".footer"], .2, { opacity: 0 }, "+=.6");
 
 	// tl.gotoAndPlay("f2")
 }

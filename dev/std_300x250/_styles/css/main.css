@@ -241,4 +241,15 @@ sup {
   height: 250px;
 }
 
+#legalBtn {
+  -webkit-transform: translate(7px, 198px);
+  -ms-transform: translate(7px, 198px);
+  transform: translate(7px, 198px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
 /*# sourceMappingURL=main.css.map */
