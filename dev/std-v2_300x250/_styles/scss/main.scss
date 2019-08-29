@@ -13,12 +13,20 @@
 
 	.player_qb_ball{
 		transform-origin: 50px 85px;
-		@include pos-scale-rotate(0, 0, 1, -10);
+		@include pos-scale-rotate(0, 0, 1, 20);
 	}
 
 	.player_qb_arm{
 		transform-origin: 160px 60px;
-		@include pos-scale-rotate(0, 0, 1, 10);
+		@include pos-scale-rotate(0, 0, 1, 7);
+	}
+
+	.txt1{
+		@include pos-scale(0, 30, .5);
+	}
+
+	.txt2{
+		@include pos-scale(-7, -60, .5);
 	}
 
 
