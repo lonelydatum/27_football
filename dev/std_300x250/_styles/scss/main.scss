@@ -2,10 +2,12 @@
 
 @import '../../../_common/styles/common.scss';
 
-
+.frame2{
+	// opacity: 1;
+}
 
 .frame1 {
-	opacity: 1;
+	
 	.player_tackle{
 		// @include pos(120, 170);
 		@include pos(180, 40);
@@ -44,4 +46,9 @@
 
 #legalBtn{	
 	@include pos(7, 198);
+}
+
+
+.phone{
+	@include pos-scale(0, 110, .5);
 }
