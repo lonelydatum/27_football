@@ -35,7 +35,9 @@
 		opacity:0;
 	}
 
-
+.b1{
+	@include pos-scale(4, 0, .5);
+}
 
 #banner{
 	font-size: 20px;
