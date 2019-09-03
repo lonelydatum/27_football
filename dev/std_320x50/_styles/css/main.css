@@ -314,14 +314,7 @@ sup {
 }
 
 #legalBtn {
-  -webkit-transform: translate(7px, 43px);
-  -ms-transform: translate(7px, 43px);
-  transform: translate(7px, 43px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -58,5 +58,6 @@
 
 #legalBtn{	
 	// opacity: 1;
-	@include pos(7, 43);
+	// @include pos(7, 43);
+	display: none;
 }
