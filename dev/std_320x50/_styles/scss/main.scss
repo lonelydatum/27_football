@@ -36,7 +36,7 @@
 	}
 
 .b1{
-	@include pos-scale(4, 0, .5);
+	@include pos-scale(2, 0, .5);
 }
 
 #banner{
@@ -47,13 +47,13 @@
 }
 
 .phone{
-	@include pos-scale(-15, 90, .5);
+	@include pos-scale(-18, 90, .5);
 }
 
 .phone_scribble{
 		transform-origin: 97px 100%;
-		@include pos-scale(-14, 0, 1);	
-		opacity: .8;
+		@include pos-scale(-19, 0, 1);	
+		opacity: 0.8;
 	}
 
 #legalBtn{	
