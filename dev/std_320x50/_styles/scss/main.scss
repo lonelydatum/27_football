@@ -2,7 +2,7 @@
 
 @import '../../../_common/styles/common.scss';
 
-.frame1 {
+.frame2 {
 	// opacity: 1;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .phone{
-	@include pos-scale(0, 90, .5);
+	@include pos-scale(-15, 90, .5);
 }
 
 .phone_scribble{
