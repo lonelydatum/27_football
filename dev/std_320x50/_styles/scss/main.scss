@@ -50,6 +50,8 @@
 
 .phone_scribble{
 		transform-origin: 97px 100%;
+		@include pos-scale(-14, 0, 1);	
+		opacity: .8;
 	}
 
 #legalBtn{	
