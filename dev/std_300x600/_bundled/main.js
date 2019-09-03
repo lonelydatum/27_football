@@ -45,8 +45,8 @@ function start(_ref) {
 
 	tl.add(sentence(listB), "+=.3");
 
-	tl.from('.cta_wager', .1, { opacity: 0 }, "+=1.3");
-	tl.to('.cta_wager', .1, { opacity: 0 }, "+=1.5");
+	tl.from('.cta_wager', .1, { opacity: 0 }, "+=.5");
+	tl.to('.cta_wager', .1, { opacity: 0 }, "+=2.3");
 	tl.from('.cta_odds', .2, { opacity: 0 }, "+=.3");
 
 	tl.from([".footer"], .2, { opacity: 0 }, "+=.6");
@@ -83,8 +83,8 @@ function start_horizontal(_ref2) {
 	tl.add(sentence(listB), "+=.3");
 
 	if (size.w === 320 && size.h === 50) {} else {
-		tl.from('.cta_wager', .1, { opacity: 0 }, "+=1.3");
-		tl.to('.cta_wager', .1, { opacity: 0 }, "+=1.5");
+		tl.from('.cta_wager', .1, { opacity: 0 }, "+=.5");
+		tl.to('.cta_wager', .1, { opacity: 0 }, "+=2.3");
 		tl.from('.cta_odds', .2, { opacity: 0 }, "+=.3");
 	}
 

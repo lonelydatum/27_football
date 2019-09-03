@@ -46,8 +46,8 @@ function start({tl_text, listB}){
 	tl.add(sentence(listB), "+=.3")
 
 	
-	tl.from('.cta_wager', .1, {opacity:0}, "+=1.3")
-	tl.to('.cta_wager', .1, {opacity:0}, "+=1.5")
+	tl.from('.cta_wager', .1, {opacity:0}, "+=.5")
+	tl.to('.cta_wager', .1, {opacity:0}, "+=2.3")
 	tl.from('.cta_odds', .2, {opacity:0}, "+=.3")
 	
 	
@@ -93,8 +93,8 @@ function start_horizontal({tl_text, listB, text_x}){
 	if(size.w===320 && size.h===50){
 
 	}else{
-		tl.from('.cta_wager', .1, {opacity:0}, "+=1.3")
-		tl.to('.cta_wager', .1, {opacity:0}, "+=1.5")
+		tl.from('.cta_wager', .1, {opacity:0}, "+=.5")
+		tl.to('.cta_wager', .1, {opacity:0}, "+=2.3")
 		tl.from('.cta_odds', .2, {opacity:0}, "+=.3")	
 	}
 	
