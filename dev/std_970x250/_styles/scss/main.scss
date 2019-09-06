@@ -1,0 +1,62 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+.frame1 {
+	// opacity: 1;
+}
+
+.frame1 {
+	
+	.player_tackle{
+		// @include pos(120, 170);
+		@include pos(130, 240);
+	}
+
+	.player_qb_ball{
+		transform-origin: 90px 100px;
+		@include pos-scale-rotate(0, 0, 1, 20);
+	}
+
+	.player_qb_arm{
+		transform-origin: 200px 67px;
+		@include pos-scale-rotate(0, 0, 1, 7);
+	}
+
+	.logo{
+		// opacity: 0;
+	}
+	
+	.a1{
+		@include pos-scale(0, 0, .5);
+		// @include pos-scale(77, 0, .5);
+	}
+
+	
+}
+
+.text{
+		opacity:0;
+	}
+
+
+
+#banner{
+	font-size: 20px;
+	color: #333;
+	width: 970px;
+	height: 250px;
+}
+
+.phone{
+	@include pos-scale(0, 250, .5);
+}
+
+.phone_scribble{
+		transform-origin: 163px 100%;
+	}
+
+#legalBtn{	
+	// opacity: 1;
+	@include pos(16, 193);
+}
