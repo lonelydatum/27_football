@@ -75,7 +75,7 @@ start_horizontal(
 	{
 		tl_text:f1_text(),
 		listB: listB,
-		text_x: 77
+		text_x: 60
 	}
 )
 

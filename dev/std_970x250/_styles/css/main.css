@@ -216,9 +216,9 @@ sup {
 }
 
 .frame1 .player_tackle {
-  -webkit-transform: translate(130px, 240px);
-  -ms-transform: translate(130px, 240px);
-  transform: translate(130px, 240px);
+  -webkit-transform: translate(110px, 240px);
+  -ms-transform: translate(110px, 240px);
+  transform: translate(110px, 240px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
