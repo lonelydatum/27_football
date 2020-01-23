@@ -43,7 +43,9 @@ function start(_ref) {
 	tl.to(".phone", .3, { y: 0, ease: Power2.easeOut }, "phone");
 	tl.from(".phone_scribble", .5, { scale: 0, ease: Power2.easeInOut }, 'phone+=.3');
 
-	tl.add(sentence(listB), "+=.3");
+	if (listB) {
+		tl.add(sentence(listB), "+=.3");
+	}
 
 	tl.from('.cta_wager', .1, { opacity: 0 }, "+=.5");
 	tl.to('.cta_wager', .1, { opacity: 0 }, "+=2.3");
