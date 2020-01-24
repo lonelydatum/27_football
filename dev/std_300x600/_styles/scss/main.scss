@@ -41,7 +41,7 @@
 }
 
 .phone{
-	@include pos(0, 280);
+	@include pos-scale(0, 280, .5);
 }
 
 .phone_scribble{
