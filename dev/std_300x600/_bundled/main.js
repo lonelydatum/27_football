@@ -104,13 +104,13 @@ exports.start_horizontal = start_horizontal;
 var _commonJsCommonJs = require('../../_common/js/common.js');
 
 var list1 = ["a1", "a2"];
-var list2 = ["a3", "a4"];
+// const list2 = ["a3", "a4" ]
 var listB = ["b1", "b2", "b3"];
 
 function f1_text() {
 	var tl = new TimelineMax();
 	tl.add((0, _commonJsCommonJs.sentence)(list1), "+=.6");
-	tl.add((0, _commonJsCommonJs.sentence)(list2), "+=.8");
+	// tl.add(sentence(list2), "+=.8")
 	return tl;
 }
 
