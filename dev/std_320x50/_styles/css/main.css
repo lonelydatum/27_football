@@ -226,13 +226,24 @@ sup {
   position: absolute;
 }
 
+.frame1 .player_qb {
+  -webkit-transform: translate(73px, 0px) scale(1, 1);
+  -ms-transform: translate(73px, 0px) scale(1, 1);
+  transform: translate(73px, 0px) scale(1, 1);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
 .frame1 .player_qb_ball {
   -webkit-transform-origin: 23px 44px;
   -ms-transform-origin: 23px 44px;
   transform-origin: 23px 44px;
-  -webkit-transform: translate(0px, 0px) scale(1) rotate(20deg);
-  -ms-transform: translate(0px, 0px) scale(1) rotate(20deg);
-  transform: translate(0px, 0px) scale(1) rotate(20deg);
+  -webkit-transform: translate(73px, 0px) scale(1) rotate(20deg);
+  -ms-transform: translate(73px, 0px) scale(1) rotate(20deg);
+  transform: translate(73px, 0px) scale(1) rotate(20deg);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -244,9 +255,9 @@ sup {
   -webkit-transform-origin: 70px 29px;
   -ms-transform-origin: 70px 29px;
   transform-origin: 70px 29px;
-  -webkit-transform: translate(0px, 0px) scale(1) rotate(7deg);
-  -ms-transform: translate(0px, 0px) scale(1) rotate(7deg);
-  transform: translate(0px, 0px) scale(1) rotate(7deg);
+  -webkit-transform: translate(73px, 0px) scale(1) rotate(7deg);
+  -ms-transform: translate(73px, 0px) scale(1) rotate(7deg);
+  transform: translate(73px, 0px) scale(1) rotate(7deg);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
